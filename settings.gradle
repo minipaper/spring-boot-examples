@@ -1,3 +1,4 @@
 rootProject.name = "Spring Boot Examples"
 
 include 'hello'
+include 'mybatis-xml'

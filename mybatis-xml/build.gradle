@@ -1,0 +1,9 @@
+bootJar {
+    mainClassName = 'net.minipaper.MyBatisApplication'
+}
+
+dependencies {
+    compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '2.0.0'
+    compile group: 'com.h2database', name: 'h2', version: '1.4.197'
+    testCompile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter-test', version: '2.0.0'
+}
