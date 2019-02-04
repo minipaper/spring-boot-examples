@@ -1,0 +1,16 @@
+apply plugin: 'war'
+
+// https://stackoverflow.com/a/54502456
+// when applying the Spring Boot gradle plugin together with war plugin, the war task is disabled by default and "replaced" by the SpringBoot bootWar task.
+bootWar {
+    baseName = 'package-war'
+    archiveName 'package-war.war'
+    // in Gradle 5.x , archiveName has been deprecated, and you should use archiveFileName instead
+//     archiveFileName 'package-war.war'
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
+    // 기본적으로 내장 서버로 사용하는 Tomcat의 의존관계를 providedCompile 로 변경한다.
+//    providedCompile 'org.springframework.boot:spring-boot-starter-tomcat'
+}
