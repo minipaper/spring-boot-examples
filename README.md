@@ -5,6 +5,7 @@ Spring Boot Examples
 
 ### Web
 - [hello](https://github.com/minipaper/spring-boot-examples/tree/master/hello) : Hello API
+- [package-war](https://github.com/minipaper/spring-boot-examples/tree/master/package-war) : Build War
 
 ### Mybatis
 - [mybatis-xml](https://github.com/minipaper/spring-boot-examples/tree/master/mybatis-xml) : Mybatis XML Mapper 를 이용 
