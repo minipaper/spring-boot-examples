@@ -3,6 +3,8 @@ Spring Boot Examples [![HitCount](http://hits.dwyl.io/minipaper/spring-boot-exam
 
 간단한 Spring Example Code
 
+[![Build Status](https://travis-ci.org/minipaper/spring-boot-examples.svg?branch=master)](https://travis-ci.org/minipaper/spring-boot-examples)
+
 ### List
 - [hello](https://github.com/minipaper/spring-boot-examples/tree/master/hello) : Hello API
 - [package-war](https://github.com/minipaper/spring-boot-examples/tree/master/package-war) : Build War
