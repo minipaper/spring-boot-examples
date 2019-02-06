@@ -1,4 +1,4 @@
-Spring Boot Examples
+Spring Boot Examples [![HitCount](http://hits.dwyl.io/minipaper/spring-boot-examples.svg)](http://hits.dwyl.io/minipaper/spring-boot-examples)
 ======================
 
 간단한 Spring Example Code
