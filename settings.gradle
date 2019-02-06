@@ -4,4 +4,5 @@ include 'hello'
 include 'mybatis-xml'
 include 'mybatis-annotation'
 include 'package-war'
+include 'aop'
 
