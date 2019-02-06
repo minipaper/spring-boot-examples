@@ -1,0 +1,13 @@
+bootJar {
+    mainClassName = 'io.github.minipaper.MyBatisMultiDatasourcesApplication'
+}
+
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter-jdbc')
+    implementation('org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.0')
+    implementation('org.apache.commons:commons-dbcp2:2.5.0')
+
+    runtimeOnly('com.h2database:h2:1.4.197')
+
+    testImplementation('org.mybatis.spring.boot:mybatis-spring-boot-starter-test:2.0.0')
+}

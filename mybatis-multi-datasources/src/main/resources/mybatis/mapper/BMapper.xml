@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="io.github.minipaper.repository.BMapper">
+    <select id="findAll" resultType="DatabaseInfo">
+        SELECT
+        SEQ AS seq,
+        DESCRIPTION AS description
+        FROM DATABASE_INFO
+    </select>
+
+    <select id="findOne" resultType="DatabaseInfo" parameterType="java.lang.Long">
+        SELECT
+        SEQ AS seq,
+        DESCRIPTION AS description
+        FROM DATABASE_INFO
+        WHERE DATABASE_INFO.seq = #{value}
+    </select>
+</mapper>

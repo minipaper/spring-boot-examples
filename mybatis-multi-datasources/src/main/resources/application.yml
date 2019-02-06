@@ -1,0 +1,27 @@
+datasource:
+  dataA:
+    initialize: true
+    driver-class-name: "org.h2.Driver"
+    url: "jdbc:h2:mem:dataa;MVCC=true;DB_CLOSE_DELAY=-1;MODE=MySQL"
+    user-name: "sa"
+    password: ""
+    max-total: 10
+    max-idle: 10
+    min-idle: 10
+    max-wait-millis: 3000
+  dataB:
+    initialize: true
+    driver-class-name: "org.h2.Driver"
+    url: "jdbc:h2:mem:datab;MVCC=true;DB_CLOSE_DELAY=-1;MODE=MySQL"
+    user-name: "sa"
+    password: ""
+    max-total: 10
+    max-idle: 10
+    min-idle: 10
+    max-wait-millis: 3000
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /console

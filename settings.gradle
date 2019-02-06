@@ -3,6 +3,6 @@ rootProject.name = "Spring Boot Examples"
 include 'hello'
 include 'mybatis-xml'
 include 'mybatis-annotation'
+include 'mybatis-multi-datasources'
 include 'package-war'
 include 'aop'
-
