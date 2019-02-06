@@ -1,3 +1,3 @@
 language: java
-script:
-  - chmod +x ./gradlew build connectedCheck
+before_install:
+  - chmod +x gradlew
