@@ -10,7 +10,7 @@ bootWar {
 }
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-web')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     // 기본적으로 내장 서버로 사용하는 Tomcat의 의존관계를 providedCompile 로 변경한다.
-//    providedCompile 'org.springframework.boot:spring-boot-starter-tomcat'
+    providedCompile 'org.springframework.boot:spring-boot-starter-tomcat'
 }

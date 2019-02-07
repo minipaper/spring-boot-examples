@@ -1,0 +1,21 @@
+apply plugin: 'war'
+
+springBoot {
+    mainClassName = 'io.github.minipaper.WebJspApplication'
+}
+
+configurations {
+    providedRuntime
+}
+
+bootRun {
+    systemProperties = System.properties
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'javax.servlet:jstl'
+
+    providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+}

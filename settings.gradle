@@ -6,3 +6,5 @@ include 'mybatis-annotation'
 include 'mybatis-multi-datasources'
 include 'package-war'
 include 'aop'
+include 'web-jsp'
+

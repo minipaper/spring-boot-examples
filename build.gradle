@@ -47,6 +47,7 @@ subprojects {
         annotationProcessor "org.projectlombok:lombok"
         compileOnly "org.springframework.boot:spring-boot-configuration-processor"
         compileOnly "org.projectlombok:lombok"
+        runtimeOnly 'org.springframework.boot:spring-boot-devtools'
         implementation fileTree(dir: 'libs', includes: ['*.jar'])
         testAnnotationProcessor "org.projectlombok:lombok"
         testCompileOnly "org.projectlombok:lombok"
