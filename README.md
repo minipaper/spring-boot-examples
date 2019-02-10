@@ -10,6 +10,7 @@ Spring Boot Examples [![HitCount](http://hits.dwyl.io/minipaper/spring-boot-exam
 - [package-war](https://github.com/minipaper/spring-boot-examples/tree/master/package-war) : Build War
 - [aop](https://github.com/minipaper/spring-boot-examples/tree/master/aop) : AOP
 - [web-jsp](https://github.com/minipaper/spring-boot-examples/tree/master/web-jsp) : Simple JSP
+- [scheduler](https://github.com/minipaper/spring-boot-examples/tree/master/scheduler) : Simple, Dynamic Schedule (Start, Stop, Change)
 
 - Mybatis
   - [mybatis-xml](https://github.com/minipaper/spring-boot-examples/tree/master/mybatis-xml) : Mybatis XML Mapper
